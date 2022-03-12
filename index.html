@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Cameron White</title>
+  </head>
+  <body class="bg-secondary">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/img/nav-logo.png"
+            alt=""
+            width=""
+            height="23"
+            class="d-inline-block align-text-top nav-logo"
+          />
+          Cameron White
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="websites.html">Websites</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="coding-projects.html"
+                    >Coding Projects</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="graphic-design.html"
+                    >Graphic Design</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Hero Section-->
+    <div class="px-4 py-5" style="background-color: #060000">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="img/hero-image.jpg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3 text-white">
+            Welcome To My Website!
+          </h1>
+          <p class="lead text-white">
+            My name is Cameron, I am a programmer, web designer, and graphic
+            designer. I am graduating IU with a Bachelor of Science in
+            Informatics.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              href="contact.html"
+              class="btn btn-primary btn-lg px-4 me-md-2"
+            >
+              Contact Me!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+    <!-- About Section-->
+    <div class="b-example-divider"></div>
+
+    <div class="container my-5">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">About</h1>
+          <p class="lead">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div
+            class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+          >
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"
+            >
+              More About Me
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="img/atozhome.png" alt="" width="720" />
+        </div>
+      </div>
+    </div>
+    <!-- End About Section-->
+
+    <!-- Features Section -->
+    <div class="b-example-divider"></div>
+
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="display-5 fw-bold lh-1 mb-3 text-white text-center">
+        Projects
+      </h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <a href="website.html">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('img/websites.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Websites</h2>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="coding-projects.html">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('img/coding.jpg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Coding Projects
+                </h2>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="graphic-design.html">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+              style="background-image: url('img/graphic-design.png')"
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Graphic Design
+                </h2>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- End Features Section -->
+
+    <!-- Contact Me Section -->
+    <div class="b-example-divider"></div>
+
+    <div class="container my-5 text-center align-items-center">
+      <div
+        class="row p-4 pb-4 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light"
+      >
+        <h1>Contact Me!</h1>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+          <div class="messages"></div>
+
+          <div class="controls">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="form-group">
+                  <label for="form_name">Name *</label>
+                  <input
+                    id="form_name"
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Please enter your name *"
+                    required="required"
+                    data-error="Name is required."
+                  />
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input
+                    id="form_email"
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Please enter your email *"
+                    required="required"
+                    data-error="Valid email is required."
+                  />
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="form_message">Message *</label>
+                  <textarea
+                    id="form_message"
+                    name="message"
+                    class="form-control"
+                    placeholder="Message for me *"
+                    rows="4"
+                    required="required"
+                    data-error="Please, leave us a message."
+                  ></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <input
+                  type="submit"
+                  class="btn btn-success btn-send bg-dark"
+                  value="Send message"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Me Section-->
+
+    <!-- Footer -->
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 bg-light"
+    >
+      <p class="col-md-4 mb-0 text-muted">&copy; 2021 Cameron White</p>
+
+      <a
+        href="index.html"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+      >
+        <img
+          src="/img/nav-logo.png"
+          alt=""
+          width=""
+          height="23"
+          class="d-inline-block align-text-top nav-logo"
+        />
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-muted">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.htm" class="nav-link px-2 text-muted">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="pojects.html" class="nav-link px-2 text-muted">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link px-2 text-muted">Contact</a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- End Footer-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"
+      integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
